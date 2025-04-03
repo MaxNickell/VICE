@@ -18,8 +18,8 @@
             "61": "False"
         },
         "annotation": {
-            "open_ended": "What is different about these two perfumes?",
-            "open_ended_answer": "One perfume is in a blue and red box while the other is in a red and blue box"
+            "open_ended": "What is similar about these two images?",
+            "open_ended_answer": "Both images depict a perfume bottle and its corresponding box"
         }
     },
     {
@@ -42,7 +42,7 @@
         },
         "annotation": {
             "open_ended": "What is similar about these two images?",
-            "open_ended_answer": "Both images depict a perfume bottle its corresponding box"
+            "open_ended_answer": "Both images depict a perfume bottle and its corresponding box"
         }
     },
     {
@@ -385,7 +385,7 @@
             "92": "True"
         },
         "annotation": {
-            "open_ended": "Whuch flute is unlike the others?",
+            "open_ended": "Which flute is unlike the others?",
             "open_ended_answer": "The flute with the wooden tip"
         }
     },
