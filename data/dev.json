@@ -1,0 +1,1158 @@
+{
+    "validation": {
+        "150": "False"
+    },
+    "sentence": "There are 3 identical bottles of perfume with gold tops.",
+    "left_url": "https://img.fragrancex.com/images/products/parent/medium/60445w.jpg",
+    "writer": "99",
+    "label": "False",
+    "right_url": "https://fimgs.net/images/secundar/o.48542.jpg",
+    "synset": "perfume",
+    "query": "three perfumes27",
+    "identifier": "dev-1043-0-0",
+    "extra_validations": {
+        "56": "False",
+        "154": "False",
+        "125": "False",
+        "61": "False"
+    }
+}
+{
+    "validation": {
+        "127": "True"
+    },
+    "sentence": "One of the photos shows a gray bottle with a red and blue label next to it's blue and red box.",
+    "left_url": "https://img.fragrancex.com/images/products/parent/medium/60445w.jpg",
+    "writer": "0",
+    "label": "True",
+    "right_url": "https://fimgs.net/images/secundar/o.48542.jpg",
+    "synset": "perfume",
+    "query": "three perfumes27",
+    "identifier": "dev-1043-0-1",
+    "extra_validations": {
+        "56": "True",
+        "73": "True",
+        "138": "True",
+        "110": "True"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "a lock has a circle with in a circle on the front",
+    "left_url": "https://images.homedepot-static.com/productImages/691b0147-30e5-4647-bdfe-435df4831c9c/svn/master-lock-padlocks-4401dlhhc-64_300.jpg",
+    "writer": "62",
+    "label": "True",
+    "right_url": "https://i5.walmartimages.com/asr/0dfc4887-ff70-4675-87c7-48e6c004aa92_1.93a84f3ed818ef61ed2e02c4707524d3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "synset": "padlock",
+    "query": "padlock lock44",
+    "identifier": "dev-666-1-0",
+    "extra_validations": {
+        "160": "True",
+        "138": "True",
+        "91": "True",
+        "71": "True"
+    }
+}
+{
+    "validation": {
+        "85": "True"
+    },
+    "sentence": "All of the locks have a silver locking handle.",
+    "left_url": "https://images.homedepot-static.com/productImages/691b0147-30e5-4647-bdfe-435df4831c9c/svn/master-lock-padlocks-4401dlhhc-64_300.jpg",
+    "writer": "141",
+    "label": "True",
+    "right_url": "https://i5.walmartimages.com/asr/0dfc4887-ff70-4675-87c7-48e6c004aa92_1.93a84f3ed818ef61ed2e02c4707524d3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "synset": "padlock",
+    "query": "padlock lock44",
+    "identifier": "dev-666-1-1",
+    "extra_validations": {
+        "152": "True",
+        "138": "True",
+        "19": "True",
+        "61": "True"
+    }
+}
+{
+    "validation": {
+        "43": "False"
+    },
+    "sentence": "One set of drums is pink and the other set of drums is red.",
+    "left_url": "https://i.pinimg.com/736x/89/59/65/8959659eb673e13d75987399c02b6206--drum-sets-percussion.jpg",
+    "writer": "54",
+    "label": "False",
+    "right_url": "https://i.pinimg.com/736x/f4/aa/f4/f4aaf4871e6b7ce2bb6b3532b1d6b2eb.jpg",
+    "synset": "drum",
+    "query": "three drums24",
+    "identifier": "dev-640-1-0",
+    "extra_validations": {
+        "72": "False",
+        "56": "False",
+        "34": "False"
+    }
+}
+{
+    "validation": {
+        "121": "False"
+    },
+    "sentence": "The drum kit on the left has violet color around each drum, and the kit on the right has red around each drum.",
+    "left_url": "https://i.pinimg.com/736x/89/59/65/8959659eb673e13d75987399c02b6206--drum-sets-percussion.jpg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "https://i.pinimg.com/736x/f4/aa/f4/f4aaf4871e6b7ce2bb6b3532b1d6b2eb.jpg",
+    "synset": "drum",
+    "query": "three drums24",
+    "identifier": "dev-640-1-1",
+    "extra_validations": {
+        "148": "False",
+        "117": "False",
+        "134": "False",
+        "127": "False"
+    }
+}
+{
+    "validation": {
+        "61": "False"
+    },
+    "sentence": "There are two bottles of perfume without boxes.",
+    "left_url": "http://i.huffpost.com/gen/1132793/images/o-CHANEL-PERFUME-facebook.jpg",
+    "writer": "77",
+    "label": "False",
+    "right_url": "https://images-na.ssl-images-amazon.com/images/I/71m6kgSFu6L._SX522_.jpg",
+    "synset": "perfume",
+    "query": "two perfumes5",
+    "identifier": "dev-594-3-0",
+    "extra_validations": {
+        "89": "False",
+        "156": "False",
+        "86": "False",
+        "103": "False"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "There are exactly two perfume boxes.",
+    "left_url": "http://i.huffpost.com/gen/1132793/images/o-CHANEL-PERFUME-facebook.jpg",
+    "writer": "103",
+    "label": "True",
+    "right_url": "https://images-na.ssl-images-amazon.com/images/I/71m6kgSFu6L._SX522_.jpg",
+    "synset": "perfume",
+    "query": "two perfumes5",
+    "identifier": "dev-594-3-1",
+    "extra_validations": {
+        "128": "True",
+        "0": "True",
+        "150": "True",
+        "103": "True"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "One dog is standing on tile.",
+    "left_url": "https://i.pinimg.com/236x/e1/ff/a3/e1ffa3c86ed88430598d7c26432069ec--alaskan-malamute.jpg",
+    "writer": "103",
+    "label": "True",
+    "right_url": "https://i.ytimg.com/vi/2AVi2diA3W4/maxresdefault.jpg",
+    "synset": "malamute",
+    "query": "two Alaskan malamutes29",
+    "identifier": "dev-518-0-0",
+    "extra_validations": {
+        "62": "True",
+        "61": "True",
+        "134": "True",
+        "55": "True"
+    }
+}
+{
+    "validation": {
+        "49": "False"
+    },
+    "sentence": "The left image shows one forward-facing sitting husky, and the right image shows a hand reaching to touch the face of a husky.",
+    "left_url": "https://i.pinimg.com/236x/e1/ff/a3/e1ffa3c86ed88430598d7c26432069ec--alaskan-malamute.jpg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "https://i.ytimg.com/vi/2AVi2diA3W4/maxresdefault.jpg",
+    "synset": "malamute",
+    "query": "two Alaskan malamutes29",
+    "identifier": "dev-518-0-1",
+    "extra_validations": {
+        "72": "False",
+        "61": "False",
+        "62": "True",
+        "55": "False"
+    }
+}
+{
+    "validation": {
+        "128": "False"
+    },
+    "sentence": "One image shows a round white plate containing crab, lemon wedges, green garnish and small bowls of condiments.",
+    "left_url": "https://cdn.shopify.com/s/files/1/1231/1452/products/crab_dungeness_large.jpg?v=1469666233",
+    "writer": "61",
+    "label": "False",
+    "right_url": "https://media-cdn.tripadvisor.com/media/photo-s/03/8b/ad/4e/whole-dungeness-crab.jpg",
+    "synset": "Dungeness crab",
+    "query": "packs of Dungeness crabs38",
+    "identifier": "dev-516-0-0",
+    "extra_validations": {
+        "154": "False",
+        "139": "False",
+        "28": "False",
+        "134": "False"
+    }
+}
+{
+    "validation": {
+        "160": "False"
+    },
+    "sentence": "There are three crabs in one image and lemons around a crab in the other image.",
+    "left_url": "https://cdn.shopify.com/s/files/1/1231/1452/products/crab_dungeness_large.jpg?v=1469666233",
+    "writer": "115",
+    "label": "False",
+    "right_url": "https://media-cdn.tripadvisor.com/media/photo-s/03/8b/ad/4e/whole-dungeness-crab.jpg",
+    "synset": "Dungeness crab",
+    "query": "packs of Dungeness crabs38",
+    "identifier": "dev-516-0-1",
+    "extra_validations": {
+        "56": "False",
+        "153": "False",
+        "154": "False",
+        "61": "False"
+    }
+}
+{
+    "validation": {
+        "124": "False"
+    },
+    "sentence": "There is a television in the room.",
+    "left_url": "http://www.ikeahackers.net/wp-content/uploads/2013/06/besta-and-billy-with-lights.jpg",
+    "writer": "85",
+    "label": "False",
+    "right_url": "http://www.digsdigs.com/photos/awesome-ikea-billy-bookcases-ideas-for-your-home-home-20.jpg",
+    "synset": "bookcase",
+    "query": "bunch of bookcases0",
+    "identifier": "dev-512-3-0",
+    "extra_validations": {
+        "159": "False",
+        "156": "False",
+        "62": "False",
+        "55": "False"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "Each image shows at least one hyena and at least some part of a zebra carcass with striped hide intact.",
+    "left_url": "http://2.bp.blogspot.com/_X1IWXuEbgXI/TNek4LTTeII/AAAAAAAACx8/ZAPpNypF-RA/s640/hyena_eating_zebra_vultures.jpg",
+    "writer": "61",
+    "label": "True",
+    "right_url": "http://www.louwphotography.com/Africa/Tanzania/Highlights/i-zVB3Zfj/0/L/IMG_5487-L.jpg",
+    "synset": "hyena",
+    "query": "packs of hyaenas83",
+    "identifier": "dev-505-2-0",
+    "extra_validations": {
+        "56": "True",
+        "153": "True",
+        "154": "True",
+        "61": "True"
+    }
+}
+{
+    "validation": {
+        "160": "False"
+    },
+    "sentence": "The dog in one of the images is standing on the grass.",
+    "left_url": "https://i.pinimg.com/236x/9c/92/0d/9c920d200d25fe33b326deeed83670fa--pyrenees-change-.jpg",
+    "writer": "85",
+    "label": "False",
+    "right_url": "http://www.dogshaming.com/wp-content/uploads/2013/02/photo31.jpg",
+    "synset": "Great Pyrenees",
+    "query": "packs of Great Pyreneeses84",
+    "identifier": "dev-504-2-0",
+    "extra_validations": {
+        "154": "False",
+        "108": "False",
+        "61": "False",
+        "138": "False"
+    }
+}
+{
+    "validation": {
+        "157": "False"
+    },
+    "sentence": "Each image shows a dog with dark fur on its ears, and at least one dog wears a collar.",
+    "left_url": "https://i.pinimg.com/236x/9c/92/0d/9c920d200d25fe33b326deeed83670fa--pyrenees-change-.jpg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "http://www.dogshaming.com/wp-content/uploads/2013/02/photo31.jpg",
+    "synset": "Great Pyrenees",
+    "query": "packs of Great Pyreneeses84",
+    "identifier": "dev-504-2-1",
+    "extra_validations": {
+        "160": "False",
+        "112": "False",
+        "154": "False",
+        "28": "False"
+    }
+}
+{
+    "validation": {
+        "152": "True"
+    },
+    "sentence": "One image contains exactly three complete flutes displayed horizontally, and each image contains at least two items displayed horizontally.",
+    "left_url": "http://www.martindoyleflutes.com/images/page-images/keyed-flutes/entries/full-size/keyed-04.png",
+    "writer": "61",
+    "label": "True",
+    "right_url": "http://www.oldflutes.com/im/11key.jpg",
+    "synset": "flute",
+    "query": "three flutes12",
+    "identifier": "dev-582-3-0",
+    "extra_validations": {
+        "72": "True",
+        "153": "True",
+        "19": "True",
+        "92": "True"
+    }
+}
+{
+    "validation": {
+        "134": "False"
+    },
+    "sentence": "The right image features a rectangular box containing three rows of four golf balls.",
+    "left_url": "http://images.tapatalk-cdn.com/15/08/16/27db708a48ba768befe6297886db4270.jpg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "https://moegolf.files.wordpress.com/2013/09/golfdotz.jpg",
+    "synset": "golf ball",
+    "query": "some golf balls1",
+    "identifier": "dev-480-0-0",
+    "extra_validations": {
+        "56": "False",
+        "83": "False",
+        "156": "False",
+        "110": "False"
+    }
+}
+{
+    "validation": {
+        "160": "True"
+    },
+    "sentence": "There is a golf ball on the grass.",
+    "left_url": "http://images.tapatalk-cdn.com/15/08/16/27db708a48ba768befe6297886db4270.jpg",
+    "writer": "103",
+    "label": "True",
+    "right_url": "https://moegolf.files.wordpress.com/2013/09/golfdotz.jpg",
+    "synset": "golf ball",
+    "query": "some golf balls1",
+    "identifier": "dev-480-0-1",
+    "extra_validations": {
+        "160": "True",
+        "122": "True",
+        "61": "True",
+        "127": "True"
+    }
+}
+{
+    "validation": {
+        "61": "False"
+    },
+    "sentence": "An image shows black ribbon bows used as trim on the lids of bottles of fragrance that are 3D rectangle shapes.",
+    "left_url": "http://1.bp.blogspot.com/-y0TF5EvJsck/UxjvJcJOwRI/AAAAAAAABeU/0l5dntWxrNQ/s1600/perfume5.jpg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "http://4.bp.blogspot.com/-QzFvuafRT40/UUxDIkVJ-RI/AAAAAAAABxk/35LF1Q-4Y2w/s1600/IMG_1310.JPG",
+    "synset": "perfume",
+    "query": "three perfumes16",
+    "identifier": "dev-476-3-0",
+    "extra_validations": {
+        "160": "False",
+        "57": "False",
+        "154": "False",
+        "87": "True"
+    }
+}
+{
+    "validation": {
+        "49": "True"
+    },
+    "sentence": "There are three vials of perfume in one of the images.",
+    "left_url": "http://1.bp.blogspot.com/-y0TF5EvJsck/UxjvJcJOwRI/AAAAAAAABeU/0l5dntWxrNQ/s1600/perfume5.jpg",
+    "writer": "85",
+    "label": "True",
+    "right_url": "http://4.bp.blogspot.com/-QzFvuafRT40/UUxDIkVJ-RI/AAAAAAAABxk/35LF1Q-4Y2w/s1600/IMG_1310.JPG",
+    "synset": "perfume",
+    "query": "three perfumes16",
+    "identifier": "dev-476-3-1",
+    "extra_validations": {
+        "56": "True",
+        "154": "True",
+        "149": "True",
+        "62": "True"
+    }
+}
+{
+    "validation": {
+        "103": "True"
+    },
+    "sentence": "A bird is standing on the back of a forward-facing water buffalo in each image.",
+    "left_url": "https://i.pinimg.com/736x/e9/ff/0a/e9ff0a982fd1754b2ed0dccc1146c787--water-buffalo-taxi-driver.jpg",
+    "writer": "61",
+    "label": "True",
+    "right_url": "http://www.besgroup.org/wp-content/uploads/100209-buffalo-f-1.jpg",
+    "synset": "water buffalo",
+    "query": "packs of Asiatic buffalos66",
+    "identifier": "dev-473-3-0",
+    "extra_validations": {
+        "160": "True",
+        "154": "True",
+        "148": "True",
+        "134": "True"
+    }
+}
+{
+    "validation": {
+        "157": "False"
+    },
+    "sentence": "One stairway railing is made of four horizontal ropes.",
+    "left_url": "https://i.pinimg.com/736x/e9/ed/cf/e9edcf835b42e430bcd939e7d023dc32--chalupa.jpg",
+    "writer": "103",
+    "label": "False",
+    "right_url": "https://www.schmitz-peter.de/artikelbilder/handlauf_mit_Seil_3.jpg",
+    "synset": "bannister",
+    "query": "bunch of bannisters19",
+    "identifier": "dev-471-3-0",
+    "extra_validations": {
+        "121": "False",
+        "83": "False",
+        "141": "False",
+        "61": "False"
+    }
+}
+{
+    "validation": {
+        "111": "True"
+    },
+    "sentence": "One stairway railing is made of four horizontal ropes.",
+    "left_url": "https://img.shmbk.pl/rimgsph/12_9a82ffc2-9840-46f8-947a-669c6f736296_max_900_1200_-schody-styl-vintage.jpg",
+    "writer": "103",
+    "label": "True",
+    "right_url": "https://freshideen.com/wp-content/uploads/2013/08/Seil-Dekoration-passt-zu-jedem-Raum-treppe-gel%C3%A4nder-wei%C3%9F.jpg",
+    "synset": "bannister",
+    "query": "bunch of bannisters19",
+    "identifier": "dev-471-1-0",
+    "extra_validations": {
+        "143": "True",
+        "156": "True",
+        "61": "True",
+        "87": "False"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "The left image has less dogs than the right.",
+    "left_url": "http://www.dog-paw-print.com/wp-content/uploads/bigstock-Beagle-Puppy-Running-On-The-Se-860768872.jpg",
+    "writer": "68",
+    "label": "True",
+    "right_url": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAJIAAAAJDg0NTg4ZGE0LTMwYjEtNGQ4MC04MzRjLTE3ZTM5YjIyMjdkYw.jpg",
+    "synset": "beagle",
+    "query": "beagles playing5",
+    "identifier": "dev-478-2-0",
+    "extra_validations": {
+        "19": "True",
+        "153": "True",
+        "107": "True",
+        "127": "True"
+    }
+}
+{
+    "validation": {
+        "150": "False"
+    },
+    "sentence": "All of the dogs in the images are running.",
+    "left_url": "http://www.dog-paw-print.com/wp-content/uploads/bigstock-Beagle-Puppy-Running-On-The-Se-860768872.jpg",
+    "writer": "136",
+    "label": "False",
+    "right_url": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAJIAAAAJDg0NTg4ZGE0LTMwYjEtNGQ4MC04MzRjLTE3ZTM5YjIyMjdkYw.jpg",
+    "synset": "beagle",
+    "query": "beagles playing5",
+    "identifier": "dev-478-2-1",
+    "extra_validations": {
+        "160": "False",
+        "73": "False",
+        "117": "False",
+        "62": "False"
+    }
+}
+{
+    "validation": {
+        "31": "True"
+    },
+    "sentence": "there is a small puppy with its mother",
+    "left_url": "https://i.pinimg.com/736x/a0/1e/57/a01e57aec59c9762a8105a98d0121e8d--gentle-giant-tanks.jpg",
+    "writer": "21",
+    "label": "True",
+    "right_url": "http://www.skylinesfarm.com/Graphics/PyrLily07.jpg",
+    "synset": "Great Pyrenees",
+    "query": "three Great Pyreneeses41",
+    "identifier": "dev-464-2-0",
+    "extra_validations": {
+        "56": "True",
+        "154": "True",
+        "139": "True",
+        "125": "True"
+    }
+}
+{
+    "validation": {
+        "43": "True"
+    },
+    "sentence": "There is at least one large, white dog outside in the snow.",
+    "left_url": "https://i.pinimg.com/736x/a0/1e/57/a01e57aec59c9762a8105a98d0121e8d--gentle-giant-tanks.jpg",
+    "writer": "57",
+    "label": "True",
+    "right_url": "http://www.skylinesfarm.com/Graphics/PyrLily07.jpg",
+    "synset": "Great Pyrenees",
+    "query": "three Great Pyreneeses41",
+    "identifier": "dev-464-2-1",
+    "extra_validations": {
+        "160": "True",
+        "139": "True",
+        "61": "True",
+        "62": "True"
+    }
+}
+{
+    "validation": {
+        "159": "False"
+    },
+    "sentence": "There are three or more pizzas.",
+    "left_url": "https://s3-media1.fl.yelpcdn.com/bphoto/32EK9FXo3WwvhaKsiml9_w/348s.jpg",
+    "writer": "115",
+    "label": "False",
+    "right_url": "http://www.foodchallenges.com/wp-content/uploads/2014/06/Cusatos-Rotterdam-Pizza-Challenge.jpg",
+    "synset": "pizza",
+    "query": "two pizzas21",
+    "identifier": "dev-442-3-0",
+    "extra_validations": {
+        "43": "False",
+        "156": "False",
+        "62": "False",
+        "23": "False"
+    }
+}
+{
+    "validation": {
+        "144": "False"
+    },
+    "sentence": "The image on the left shows two sliced pizzas.",
+    "left_url": "https://s3-media1.fl.yelpcdn.com/bphoto/32EK9FXo3WwvhaKsiml9_w/348s.jpg",
+    "writer": "151",
+    "label": "False",
+    "right_url": "http://www.foodchallenges.com/wp-content/uploads/2014/06/Cusatos-Rotterdam-Pizza-Challenge.jpg",
+    "synset": "pizza",
+    "query": "two pizzas21",
+    "identifier": "dev-442-3-1",
+    "extra_validations": {
+        "128": "False",
+        "72": "False",
+        "108": "False",
+        "56": "False"
+    }
+}
+{
+    "validation": {
+        "144": "True"
+    },
+    "sentence": "There is a balloon touching the wall or ceiling.",
+    "left_url": "http://bebehblog.com/wp-content/uploads/2011/04/DSC_0908.jpg",
+    "writer": "128",
+    "label": "True",
+    "right_url": "http://1.bp.blogspot.com/-hgfFcfXKLVI/TcmBUPmGjpI/AAAAAAAABm4/NBm6S7KsTbQ/s1600/DSC_0683.JPG",
+    "synset": "balloon",
+    "query": "some balloons8",
+    "identifier": "dev-400-0-1",
+    "extra_validations": {
+        "0": "True",
+        "33": "True",
+        "61": "True",
+        "110": "True"
+    }
+}
+{
+    "validation": {
+        "160": "False"
+    },
+    "sentence": "A black and red graduation gown and black cap are worn by exactly one person in each image, only one of them a full length view.",
+    "left_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Meryl_streep_harvard_commencement_2010.JPG/1200px-Meryl_streep_harvard_commencement_2010.JPG",
+    "writer": "160",
+    "label": "False",
+    "right_url": "https://ae01.alicdn.com/kf/HTB1dwnoOFXXXXa2XXXXq6xXFXXX2/Kindergarten-Primary-Students-Chorus-font-b-Shawl-b-font-Kids-Academic-Dress-Girls-font-b-Graduation.jpg",
+    "synset": "academic gown",
+    "query": "three academic gowns10",
+    "identifier": "dev-373-0-0",
+    "extra_validations": {
+        "128": "False",
+        "56": "False",
+        "83": "False",
+        "25": "False"
+    }
+}
+{
+    "validation": {
+        "160": "False"
+    },
+    "sentence": "Each image shows exactly one human wearing a graduation gown and cap, and all graduates shown are at least adolescent in terms of age.",
+    "left_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Meryl_streep_harvard_commencement_2010.JPG/1200px-Meryl_streep_harvard_commencement_2010.JPG",
+    "writer": "61",
+    "label": "False",
+    "right_url": "https://ae01.alicdn.com/kf/HTB1dwnoOFXXXXa2XXXXq6xXFXXX2/Kindergarten-Primary-Students-Chorus-font-b-Shawl-b-font-Kids-Academic-Dress-Girls-font-b-Graduation.jpg",
+    "synset": "academic gown",
+    "query": "three academic gowns10",
+    "identifier": "dev-373-0-1",
+    "extra_validations": {
+        "56": "False",
+        "110": "False",
+        "61": "False",
+        "134": "False"
+    }
+}
+{
+    "validation": {
+        "160": "False"
+    },
+    "sentence": "Each image is a close-up of a Three Thieves wine bottle with a logo of three figures each riding a horse.",
+    "left_url": "https://s-media-cache-ak0.pinimg.com/236x/6b/d8/29/6bd829145660996d805a0bd080233a40--wine-reviews-costco.jpg",
+    "writer": "126",
+    "label": "False",
+    "right_url": "https://s-media-cache-ak0.pinimg.com/236x/d9/39/01/d9390177eb427c26ced1c70b324dc580.jpg",
+    "synset": "red wine",
+    "query": "three red wines30",
+    "identifier": "dev-364-0-0",
+    "extra_validations": {
+        "56": "False",
+        "154": "False",
+        "12": "False",
+        "134": "False"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "A wine glass is behind a wine bottle.",
+    "left_url": "https://s-media-cache-ak0.pinimg.com/236x/6b/d8/29/6bd829145660996d805a0bd080233a40--wine-reviews-costco.jpg",
+    "writer": "74",
+    "label": "True",
+    "right_url": "https://s-media-cache-ak0.pinimg.com/236x/d9/39/01/d9390177eb427c26ced1c70b324dc580.jpg",
+    "synset": "red wine",
+    "query": "three red wines30",
+    "identifier": "dev-364-0-1",
+    "extra_validations": {
+        "160": "True",
+        "154": "True",
+        "139": "True",
+        "61": "True"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "The right image features an open fold-out beige bed with pillows on a white mattress and two sets of U-shaped legs holding it up, and it is displayed at an angle.",
+    "left_url": "https://i.pinimg.com/736x/17/39/b4/1739b488157ae8edb3d1949d6553c5b5--couch-set-futon-sofa-bed.jpg",
+    "writer": "61",
+    "label": "True",
+    "right_url": "https://i.pinimg.com/736x/f3/e6/d9/f3e6d9b28916e98aac21b2b5173cc815--sofa-bed-mattress-sofa-beds.jpg",
+    "synset": "pillow",
+    "query": "bunch of pillows23",
+    "identifier": "dev-353-0-1",
+    "extra_validations": {
+        "152": "True",
+        "138": "True",
+        "141": "True",
+        "62": "True"
+    }
+}
+{
+    "validation": {
+        "160": "True"
+    },
+    "sentence": "The dog in the left image has one leg completely covered.",
+    "left_url": "https://dogsofsf.com/wp-content/uploads/2015/03/IMG_2989-600x457.jpg",
+    "writer": "103",
+    "label": "True",
+    "right_url": "https://i.pinimg.com/236x/f7/32/7d/f7327d1393cec6275071affae969e047--italian-greyhound-rescue-organizers.jpg",
+    "synset": "Italian greyhound",
+    "query": "Italian greyhounds sleeping0",
+    "identifier": "dev-350-2-0",
+    "extra_validations": {
+        "136": "True",
+        "91": "True",
+        "154": "True",
+        "43": "True"
+    }
+}
+{
+    "validation": {
+        "61": "False"
+    },
+    "sentence": "In the image to the left, a greyhound is laying down, and has a cast on a leg.",
+    "left_url": "https://dogsofsf.com/wp-content/uploads/2015/03/IMG_2989-600x457.jpg",
+    "writer": "37",
+    "label": "False",
+    "right_url": "https://i.pinimg.com/236x/f7/32/7d/f7327d1393cec6275071affae969e047--italian-greyhound-rescue-organizers.jpg",
+    "synset": "Italian greyhound",
+    "query": "Italian greyhounds sleeping0",
+    "identifier": "dev-350-2-1",
+    "extra_validations": {
+        "154": "False",
+        "149": "False",
+        "62": "False",
+        "55": "False"
+    }
+}
+{
+    "validation": {
+        "48": "False"
+    },
+    "sentence": "At least one dog's teeth are visible in the pair of images.",
+    "left_url": "https://virtuavet.files.wordpress.com/2010/04/chiposteye.jpeg",
+    "writer": "43",
+    "label": "False",
+    "right_url": "https://i.pinimg.com/236x/2c/63/cd/2c63cd2dcd516583ebf2ef40151cbb98--teacup-chihuahua-chihuahua-puppies.jpg",
+    "synset": "Chihuahua",
+    "query": "Chihuahuas resting2",
+    "identifier": "dev-342-0-0",
+    "extra_validations": {
+        "152": "False",
+        "43": "False",
+        "61": "False",
+        "150": "False"
+    }
+}
+{
+    "validation": {
+        "48": "False"
+    },
+    "sentence": "Each image contains a single dog, and one features a tiny white dog with a broad open-mouthed grin.",
+    "left_url": "https://virtuavet.files.wordpress.com/2010/04/chiposteye.jpeg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "https://i.pinimg.com/236x/2c/63/cd/2c63cd2dcd516583ebf2ef40151cbb98--teacup-chihuahua-chihuahua-puppies.jpg",
+    "synset": "Chihuahua",
+    "query": "Chihuahuas resting2",
+    "identifier": "dev-342-0-1",
+    "extra_validations": {
+        "72": "False",
+        "56": "False",
+        "61": "False",
+        "134": "False"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "The left image includes a man sitting on a bench with his elbows at right angles and a barbell in each hand, and the right image shows a man sitting on a bench with his elbows at right angles and the bar of one barbell gripped by both hands.",
+    "left_url": "https://i.pinimg.com/originals/4a/ee/ed/4aeeed83319993aebe410f8fe08139d8.jpg",
+    "writer": "61",
+    "label": "True",
+    "right_url": "http://bodybuilding-wizard.com/wp-content/uploads/2014/07/seated-barbell-shoulder-press.jpg",
+    "synset": "dumbbell",
+    "query": "some dumbbells12",
+    "identifier": "dev-339-3-0",
+    "extra_validations": {
+        "144": "True",
+        "154": "True",
+        "61": "True",
+        "110": "True"
+    }
+}
+{
+    "validation": {
+        "160": "False"
+    },
+    "sentence": "There is a total of three people lifting weights.",
+    "left_url": "https://i.pinimg.com/originals/4a/ee/ed/4aeeed83319993aebe410f8fe08139d8.jpg",
+    "writer": "31",
+    "label": "False",
+    "right_url": "http://bodybuilding-wizard.com/wp-content/uploads/2014/07/seated-barbell-shoulder-press.jpg",
+    "synset": "dumbbell",
+    "query": "some dumbbells12",
+    "identifier": "dev-339-3-1",
+    "extra_validations": {
+        "137": "False",
+        "156": "False",
+        "33": "False",
+        "103": "False"
+    }
+}
+{
+    "validation": {
+        "89": "False"
+    },
+    "sentence": "The left image includes a man sitting on a bench with his elbows at right angles and a barbell in each hand, and the right image shows a man sitting on a bench with his elbows at right angles and the bar of one barbell gripped by both hands.",
+    "left_url": "https://i.ytimg.com/vi/qEwKCR5JCog/maxresdefault.jpg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "https://i.pinimg.com/originals/95/39/5c/95395c05aa893a7bf7b086cad9d78dc1.jpg",
+    "synset": "dumbbell",
+    "query": "some dumbbells12",
+    "identifier": "dev-339-2-0",
+    "extra_validations": {
+        "160": "False",
+        "138": "False",
+        "19": "False",
+        "110": "False"
+    }
+}
+{
+    "validation": {
+        "127": "False"
+    },
+    "sentence": "There is a total of three people lifting weights.",
+    "left_url": "https://i.ytimg.com/vi/qEwKCR5JCog/maxresdefault.jpg",
+    "writer": "31",
+    "label": "False",
+    "right_url": "https://i.pinimg.com/originals/95/39/5c/95395c05aa893a7bf7b086cad9d78dc1.jpg",
+    "synset": "dumbbell",
+    "query": "some dumbbells12",
+    "identifier": "dev-339-2-1",
+    "extra_validations": {
+        "138": "False",
+        "13": "False",
+        "150": "False",
+        "31": "False"
+    }
+}
+{
+    "validation": {
+        "48": "False"
+    },
+    "sentence": "All trains appear to be heading towards the left.",
+    "left_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/RENFE_AVE_S-103_15.jpg",
+    "writer": "37",
+    "label": "False",
+    "right_url": "https://wpr-public.s3.amazonaws.com/wprorg/styles/resp_orig_custom_user_wide_1x/s3/s3fs-public/field/image/talgo.jpg?itok=hhFMzWuv&timestamp=1441149716",
+    "synset": "electric locomotive",
+    "query": "two electric locomotives31",
+    "identifier": "dev-328-2-0",
+    "extra_validations": {
+        "160": "False",
+        "154": "False",
+        "61": "False",
+        "134": "False"
+    }
+}
+{
+    "validation": {
+        "160": "True"
+    },
+    "sentence": "All the trains in the images are facing the same direction.",
+    "left_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/RENFE_AVE_S-103_15.jpg",
+    "writer": "136",
+    "label": "True",
+    "right_url": "https://wpr-public.s3.amazonaws.com/wprorg/styles/resp_orig_custom_user_wide_1x/s3/s3fs-public/field/image/talgo.jpg?itok=hhFMzWuv&timestamp=1441149716",
+    "synset": "electric locomotive",
+    "query": "two electric locomotives31",
+    "identifier": "dev-328-2-1",
+    "extra_validations": {
+        "160": "True",
+        "138": "False",
+        "139": "True",
+        "61": "True"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "at least one bottle is clear with a blue plastic top",
+    "left_url": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX1889073.jpg",
+    "writer": "62",
+    "label": "True",
+    "right_url": "https://pbs.twimg.com/media/BvxdK5zCUAAqNDg.jpg",
+    "synset": "water bottle",
+    "query": "three water bottles8",
+    "identifier": "dev-299-1-0",
+    "extra_validations": {
+        "160": "True",
+        "49": "True",
+        "138": "True",
+        "134": "True"
+    }
+}
+{
+    "validation": {
+        "128": "False"
+    },
+    "sentence": "There are exactly three pugs.",
+    "left_url": "https://c2.staticflickr.com/8/7519/15935915679_8fa782de23_b.jpg",
+    "writer": "117",
+    "label": "False",
+    "right_url": "https://s-media-cache-ak0.pinimg.com/236x/59/db/00/59db00f02326074db0e2db8a19ddc5ed--best-girl-pug-rescue.jpg",
+    "synset": "pug",
+    "query": "packs of pugs17",
+    "identifier": "dev-293-0-0",
+    "extra_validations": {
+        "154": "False",
+        "12": "False",
+        "125": "False",
+        "61": "False"
+    }
+}
+{
+    "validation": {
+        "121": "True"
+    },
+    "sentence": "In one image, two pugs sitting side by side, one with its tongue out, are each wearing a harness of a different color.",
+    "left_url": "https://c2.staticflickr.com/8/7519/15935915679_8fa782de23_b.jpg",
+    "writer": "160",
+    "label": "True",
+    "right_url": "https://s-media-cache-ak0.pinimg.com/236x/59/db/00/59db00f02326074db0e2db8a19ddc5ed--best-girl-pug-rescue.jpg",
+    "synset": "pug",
+    "query": "packs of pugs17",
+    "identifier": "dev-293-0-1",
+    "extra_validations": {
+        "138": "True",
+        "156": "True",
+        "125": "True",
+        "31": "True"
+    }
+}
+{
+    "validation": {
+        "61": "False"
+    },
+    "sentence": "At least 1 of the golf balls is a neon green color.",
+    "left_url": "http://www.myusualgame.com/wp-content/uploads/2015/05/markedballs.jpg",
+    "writer": "121",
+    "label": "False",
+    "right_url": "http://www.golfmagic.com/sites/default/files/image_3.jpeg",
+    "synset": "golf ball",
+    "query": "some golf balls7",
+    "identifier": "dev-278-2-0",
+    "extra_validations": {
+        "72": "False",
+        "107": "False",
+        "61": "False",
+        "62": "False"
+    }
+}
+{
+    "validation": {
+        "139": "True"
+    },
+    "sentence": "All of the balls have writing and graphics on them, but are all the same base color.",
+    "left_url": "http://www.myusualgame.com/wp-content/uploads/2015/05/markedballs.jpg",
+    "writer": "98",
+    "label": "True",
+    "right_url": "http://www.golfmagic.com/sites/default/files/image_3.jpeg",
+    "synset": "golf ball",
+    "query": "some golf balls7",
+    "identifier": "dev-278-2-1",
+    "extra_validations": {
+        "56": "True",
+        "160": "True",
+        "61": "True",
+        "62": "True"
+    }
+}
+{
+    "validation": {
+        "139": "False"
+    },
+    "sentence": "One dog is sitting on its butt and another dog is standing.",
+    "left_url": "https://s-media-cache-ak0.pinimg.com/originals/8e/c4/25/8ec425c67314e90f060ea8194bcf5e8b.jpg",
+    "writer": "103",
+    "label": "False",
+    "right_url": "http://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12213034/Irish-Terrier-on-white-01-400x267.jpg",
+    "synset": "Border terrier",
+    "query": "some Border terriers29",
+    "identifier": "dev-274-3-0",
+    "extra_validations": {
+        "72": "False",
+        "56": "False",
+        "156": "False",
+        "61": "False"
+    }
+}
+{
+    "validation": {
+        "127": "False"
+    },
+    "sentence": "Both dogs have their mouths open, and at least one dog is in a sitting position.",
+    "left_url": "https://s-media-cache-ak0.pinimg.com/originals/8e/c4/25/8ec425c67314e90f060ea8194bcf5e8b.jpg",
+    "writer": "61",
+    "label": "False",
+    "right_url": "http://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12213034/Irish-Terrier-on-white-01-400x267.jpg",
+    "synset": "Border terrier",
+    "query": "some Border terriers29",
+    "identifier": "dev-274-3-1",
+    "extra_validations": {
+        "58": "False",
+        "19": "False",
+        "138": "False",
+        "87": "False"
+    }
+}
+{
+    "validation": {
+        "34": "False"
+    },
+    "sentence": "In at least one image there are a total of six bodybuilders in a row with hands on their hips.",
+    "left_url": "http://i.dailymail.co.uk/i/pix/2015/03/14/26A2654E00000578-0-image-m-61_1426343590352.jpg",
+    "writer": "31",
+    "label": "False",
+    "right_url": "https://ae01.alicdn.com/kf/HTB1Wn8SLpXXXXb4aXXXq6xXFXXX4/FLORIDA-PANTHERS-hockey-cheerleader-bikini-sexy-babe-doek-zijde-art-wall-poster-canvas-schilderij-en-afdrukken.jpg",
+    "synset": "bikini",
+    "query": "group of bikinis32",
+    "identifier": "dev-15-2-1",
+    "extra_validations": {
+        "128": "True",
+        "56": "False",
+        "154": "False",
+        "138": "False"
+    }
+}
+{
+    "validation": {
+        "127": "False"
+    },
+    "sentence": "In the right image, there's an American flag made out of beads and safety pins.",
+    "left_url": "https://i.pinimg.com/736x/61/1a/f1/611af10549f8321121f422ab1c5d2c3e---canada-canada--crafts.jpg",
+    "writer": "63",
+    "label": "False",
+    "right_url": "https://s-media-cache-ak0.pinimg.com/originals/11/1b/cd/111bcd8b6e17d74cdba41e72f4255a2a.jpg",
+    "synset": "safety pin",
+    "query": "bunch of safety pins24",
+    "identifier": "dev-43-3-0",
+    "extra_validations": {
+        "49": "False",
+        "154": "False",
+        "61": "False",
+        "138": "False"
+    }
+}
+{
+    "validation": {
+        "61": "False"
+    },
+    "sentence": "Both images contain jewelry with red, white and blue colors.",
+    "left_url": "https://i.pinimg.com/736x/61/1a/f1/611af10549f8321121f422ab1c5d2c3e---canada-canada--crafts.jpg",
+    "writer": "103",
+    "label": "False",
+    "right_url": "https://s-media-cache-ak0.pinimg.com/originals/11/1b/cd/111bcd8b6e17d74cdba41e72f4255a2a.jpg",
+    "synset": "safety pin",
+    "query": "bunch of safety pins24",
+    "identifier": "dev-43-3-1",
+    "extra_validations": {
+        "89": "False",
+        "154": "True",
+        "61": "False",
+        "149": "False"
+    }
+}
+{
+    "validation": {
+        "121": "True"
+    },
+    "sentence": "One image contains a product that is not body lotion.",
+    "left_url": "https://i.pinimg.com/736x/43/25/5d/43255d0005debb6e556eb965a9a02463--natural-body-wash-business-ideas.jpg",
+    "writer": "157",
+    "label": "True",
+    "right_url": "https://i.pinimg.com/236x/ea/49/b7/ea49b78d0632649ca841df4d8495762c--burts-bees-smooth-skin.jpg",
+    "synset": "lotion",
+    "query": "three lotions3",
+    "identifier": "dev-58-2-0",
+    "extra_validations": {
+        "160": "True",
+        "154": "True",
+        "77": "True",
+        "150": "True"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "One image contains a product that is not body lotion.",
+    "left_url": "http://i.imgur.com/T0QtoHi.jpg",
+    "writer": "157",
+    "label": "True",
+    "right_url": "http://i.imgur.com/PzSg00m.jpg",
+    "synset": "lotion",
+    "query": "three lotions3",
+    "identifier": "dev-58-3-0",
+    "extra_validations": {
+        "136": "False",
+        "160": "True",
+        "62": "True",
+        "150": "True"
+    }
+}
+{
+    "validation": {
+        "61": "True"
+    },
+    "sentence": "None of the items are 'Dove' products.",
+    "left_url": "http://i.imgur.com/T0QtoHi.jpg",
+    "writer": "37",
+    "label": "True",
+    "right_url": "http://i.imgur.com/PzSg00m.jpg",
+    "synset": "lotion",
+    "query": "three lotions3",
+    "identifier": "dev-58-3-1",
+    "extra_validations": {
+        "56": "True",
+        "154": "True",
+        "61": "True",
+        "149": "True"
+    }
+}
+{
+    "validation": {
+        "61": "False"
+    },
+    "sentence": "One of the images contains a 6 roll package of paper towels.",
+    "left_url": "https://www.yourbestdigs.com/wp-content/uploads/2016/07/paper-towels-overhead.jpg",
+    "writer": "103",
+    "label": "False",
+    "right_url": "https://i.ytimg.com/vi/jwDq1MzePKM/maxresdefault.jpg",
+    "synset": "paper towel",
+    "query": "three paper towels21",
+    "identifier": "dev-63-2-0",
+    "extra_validations": {
+        "154": "False",
+        "12": "False",
+        "61": "False",
+        "134": "False"
+    }
+}
+{
+    "validation": {
+        "48": "False"
+    },
+    "sentence": "Six rolls of paper towels are enclosed in a plastic package with the brand name on it.",
+    "left_url": "https://www.yourbestdigs.com/wp-content/uploads/2016/07/paper-towels-overhead.jpg",
+    "writer": "77",
+    "label": "False",
+    "right_url": "https://i.ytimg.com/vi/jwDq1MzePKM/maxresdefault.jpg",
+    "synset": "paper towel",
+    "query": "three paper towels21",
+    "identifier": "dev-63-2-1",
+    "extra_validations": {
+        "154": "False",
+        "117": "False",
+        "61": "False",
+        "93": "False"
+    }
+}
