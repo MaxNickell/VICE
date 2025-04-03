@@ -3,5 +3,3 @@ requests>=2.25.0
 pillow>=8.0.0
 imagehash>=4.2.0
 progressbar2>=3.50.0
-tqdm>=4.64.0
-openai>=1.6.0

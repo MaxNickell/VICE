@@ -20,3 +20,6 @@ Fields from the oringal NLVRv2 dataset
 Annotation fields:
 - open_ended: An open ended question about the image pair
 - open_ended_answer: The expected answer to the open ended quesiton
+
+## Scripts
+Download Images - `python util/download_images.py data/dev.json --hash_file data/dev_hashes.json` 
