@@ -17,7 +17,9 @@ split_name = json_file.split(".")[0]
 HEADER = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 TIMEOUT = 2 # Timeout of 2 sections. 
 
-examples = [json.loads(line) for line in open(json_file).readlines()]
+# Load JSON as a single array instead of line-by-line
+with open(json_file, 'r') as f:
+    examples = json.load(f)
 
 class Timeout():
     """Timeout class using ALARM signal."""
@@ -77,7 +79,12 @@ hashes = json.loads(open(hash_file).read())
 
 pbar.start()
 with open(split_name + "_failed_imgs.txt", "a") as ofile, open(split_name + "_checked_imgs.txt", "a") as checked_file, open(split_name + "_failed_hashes.txt", "a") as failed_hash_file:
-    checked_urls = set([line.strip() for line in open(split_name + "_checked_imgs.txt").readlines()])
+    # Create empty set if file doesn't exist or read existing file
+    try:
+        checked_urls = set([line.strip() for line in open(split_name + "_checked_imgs.txt").readlines()])
+    except FileNotFoundError:
+        checked_urls = set()
+        
     num_none = 0
     num_total = 0
 

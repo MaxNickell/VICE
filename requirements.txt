@@ -1,0 +1,5 @@
+# Requirements for download_images.py
+requests>=2.25.0
+pillow>=8.0.0
+imagehash>=4.2.0
+progressbar2>=3.50.0
