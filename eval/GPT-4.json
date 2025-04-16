@@ -1,23 +1,23 @@
 [
     {
-        "overallScore": "172/175",
+        "overallScore": "168/175",
         "evaluator": "Max Nickell",
-        "comments": "Basically perfect performance. Two points were lost on dev-43-3 as it could not recognize the Canadian flag. In many cases the response is even better than the annotations."
+        "comments": "Very good performance. Compares very well to GPT-4o. In many cases the response is even better than the annotations."
     },
     {
         "dev-1043-0": 5,
         "dev-666-1": 5,
         "dev-640-1": 5,
         "dev-594-3": 5,
-        "dev-582-3": 4,
-        "dev-518-0": 5,
+        "dev-582-3": 5,
+        "dev-518-0": 3,
         "dev-516-0": 5,
-        "dev-512-3": 5,
-        "dev-505-2": 5,
+        "dev-512-3": 4,
+        "dev-505-2": 4,
         "dev-504-2": 5,
         "dev-480-0": 5,
         "dev-476-3": 5,
-        "dev-473-3": 5,
+        "dev-473-3": 4,
         "dev-471-3": 5,
         "dev-471-1": 5,
         "dev-464-2": 5,
@@ -33,12 +33,12 @@
         "dev-328-2": 5,
         "dev-299-1": 5,
         "dev-293-0": 5,
-        "dev-278-2": 5,
+        "dev-278-2": 4,
         "dev-274-3": 5,
         "dev-15-2": 5,
-        "dev-43-3": 3,
+        "dev-43-3": 5,
         "dev-58-2": 5,
-        "dev-58-3": 5,
+        "dev-58-3": 4,
         "dev-63-2": 5
     }
 ]
