@@ -179,7 +179,7 @@
             "61": "True"
         },
         "annotation": {
-            "open_ended": "What is similar about these two iamges?",
+            "open_ended": "What is similar about these two images?",
             "open_ended_answer": "Both hyenas are eating a zebra"
         }
     },
