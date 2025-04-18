@@ -93,6 +93,29 @@
     },
     {
         "validation": {
+            "152": "True"
+        },
+        "sentence": "One image contains exactly three complete flutes displayed horizontally, and each image contains at least two items displayed horizontally.",
+        "left_url": "http://www.martindoyleflutes.com/images/page-images/keyed-flutes/entries/full-size/keyed-04.png",
+        "writer": "61",
+        "label": "True",
+        "right_url": "http://www.oldflutes.com/im/11key.jpg",
+        "synset": "flute",
+        "query": "three flutes12",
+        "identifier": "dev-582-3-0",
+        "extra_validations": {
+            "72": "True",
+            "153": "True",
+            "19": "True",
+            "92": "True"
+        },
+        "annotation": {
+            "open_ended": "Which flute is unlike the others?",
+            "open_ended_answer": "The flute with the wooden tip"
+        }
+    },
+    {
+        "validation": {
             "49": "False"
         },
         "sentence": "The left image shows one forward-facing sitting husky, and the right image shows a hand reaching to touch the face of a husky.",
@@ -204,29 +227,6 @@
         "annotation": {
             "open_ended": "Which dog did something wrong?",
             "open_ended_answer": "The white dog with the paper note"
-        }
-    },
-    {
-        "validation": {
-            "152": "True"
-        },
-        "sentence": "One image contains exactly three complete flutes displayed horizontally, and each image contains at least two items displayed horizontally.",
-        "left_url": "http://www.martindoyleflutes.com/images/page-images/keyed-flutes/entries/full-size/keyed-04.png",
-        "writer": "61",
-        "label": "True",
-        "right_url": "http://www.oldflutes.com/im/11key.jpg",
-        "synset": "flute",
-        "query": "three flutes12",
-        "identifier": "dev-582-3-0",
-        "extra_validations": {
-            "72": "True",
-            "153": "True",
-            "19": "True",
-            "92": "True"
-        },
-        "annotation": {
-            "open_ended": "Which flute is unlike the others?",
-            "open_ended_answer": "The flute with the wooden tip"
         }
     },
     {
@@ -691,71 +691,25 @@
     },
     {
         "validation": {
-            "34": "False"
+            "48": "False"
         },
-        "sentence": "In at least one image there are a total of six bodybuilders in a row with hands on their hips.",
-        "left_url": "http://i.dailymail.co.uk/i/pix/2015/03/14/26A2654E00000578-0-image-m-61_1426343590352.jpg",
-        "writer": "31",
+        "sentence": "Six rolls of paper towels are enclosed in a plastic package with the brand name on it.",
+        "left_url": "https://www.yourbestdigs.com/wp-content/uploads/2016/07/paper-towels-overhead.jpg",
+        "writer": "77",
         "label": "False",
-        "right_url": "https://ae01.alicdn.com/kf/HTB1Wn8SLpXXXXb4aXXXq6xXFXXX4/FLORIDA-PANTHERS-hockey-cheerleader-bikini-sexy-babe-doek-zijde-art-wall-poster-canvas-schilderij-en-afdrukken.jpg",
-        "synset": "bikini",
-        "query": "group of bikinis32",
-        "identifier": "dev-15-2-1",
+        "right_url": "https://i.ytimg.com/vi/jwDq1MzePKM/maxresdefault.jpg",
+        "synset": "paper towel",
+        "query": "three paper towels21",
+        "identifier": "dev-63-2-1",
         "extra_validations": {
-            "128": "True",
-            "56": "False",
             "154": "False",
-            "138": "False"
-        },
-        "annotation": {
-            "open_ended": "What is the difference between why these groups of women are wearing bikinis?",
-            "open_ended_answer": "One group is in a phsique competition and the other group is posing for a photo on the beach"
-        }
-    },
-    {
-        "validation": {
-            "61": "False"
-        },
-        "sentence": "Both images contain jewelry with red, white and blue colors.",
-        "left_url": "https://i.pinimg.com/736x/61/1a/f1/611af10549f8321121f422ab1c5d2c3e---canada-canada--crafts.jpg",
-        "writer": "103",
-        "label": "False",
-        "right_url": "https://s-media-cache-ak0.pinimg.com/originals/11/1b/cd/111bcd8b6e17d74cdba41e72f4255a2a.jpg",
-        "synset": "safety pin",
-        "query": "bunch of safety pins24",
-        "identifier": "dev-43-3-1",
-        "extra_validations": {
-            "89": "False",
-            "154": "True",
+            "117": "False",
             "61": "False",
-            "149": "False"
+            "93": "False"
         },
         "annotation": {
-            "open_ended": "What is similar about these two crafts?",
-            "open_ended_answer": "They both depict flags, a rainbow flag and a Canadian flag"
-        }
-    },
-    {
-        "validation": {
-            "121": "True"
-        },
-        "sentence": "One image contains a product that is not body lotion.",
-        "left_url": "https://i.pinimg.com/736x/43/25/5d/43255d0005debb6e556eb965a9a02463--natural-body-wash-business-ideas.jpg",
-        "writer": "157",
-        "label": "True",
-        "right_url": "https://i.pinimg.com/236x/ea/49/b7/ea49b78d0632649ca841df4d8495762c--burts-bees-smooth-skin.jpg",
-        "synset": "lotion",
-        "query": "three lotions3",
-        "identifier": "dev-58-2-0",
-        "extra_validations": {
-            "160": "True",
-            "154": "True",
-            "77": "True",
-            "150": "True"
-        },
-        "annotation": {
-            "open_ended": "Which products are used to clean the body?",
-            "open_ended_answer": "LaurieBCreations Patchouli Body Wash, LaurieBCreations Lavender Body Wash, and LaurieBCreations Tropical Coconut Body Wash"
+            "open_ended": "Which material is in common in both images?",
+            "open_ended_answer": "paper towel"
         }
     },
     {
@@ -783,25 +737,71 @@
     },
     {
         "validation": {
-            "48": "False"
+            "121": "True"
         },
-        "sentence": "Six rolls of paper towels are enclosed in a plastic package with the brand name on it.",
-        "left_url": "https://www.yourbestdigs.com/wp-content/uploads/2016/07/paper-towels-overhead.jpg",
-        "writer": "77",
-        "label": "False",
-        "right_url": "https://i.ytimg.com/vi/jwDq1MzePKM/maxresdefault.jpg",
-        "synset": "paper towel",
-        "query": "three paper towels21",
-        "identifier": "dev-63-2-1",
+        "sentence": "One image contains a product that is not body lotion.",
+        "left_url": "https://i.pinimg.com/736x/43/25/5d/43255d0005debb6e556eb965a9a02463--natural-body-wash-business-ideas.jpg",
+        "writer": "157",
+        "label": "True",
+        "right_url": "https://i.pinimg.com/236x/ea/49/b7/ea49b78d0632649ca841df4d8495762c--burts-bees-smooth-skin.jpg",
+        "synset": "lotion",
+        "query": "three lotions3",
+        "identifier": "dev-58-2-0",
         "extra_validations": {
-            "154": "False",
-            "117": "False",
-            "61": "False",
-            "93": "False"
+            "160": "True",
+            "154": "True",
+            "77": "True",
+            "150": "True"
         },
         "annotation": {
-            "open_ended": "Which material is in common in both images?",
-            "open_ended_answer": "paper towel"
+            "open_ended": "Which products are used to clean the body?",
+            "open_ended_answer": "LaurieBCreations Patchouli Body Wash, LaurieBCreations Lavender Body Wash, and LaurieBCreations Tropical Coconut Body Wash"
+        }
+    },
+    {
+        "validation": {
+            "61": "False"
+        },
+        "sentence": "Both images contain jewelry with red, white and blue colors.",
+        "left_url": "https://i.pinimg.com/736x/61/1a/f1/611af10549f8321121f422ab1c5d2c3e---canada-canada--crafts.jpg",
+        "writer": "103",
+        "label": "False",
+        "right_url": "https://s-media-cache-ak0.pinimg.com/originals/11/1b/cd/111bcd8b6e17d74cdba41e72f4255a2a.jpg",
+        "synset": "safety pin",
+        "query": "bunch of safety pins24",
+        "identifier": "dev-43-3-1",
+        "extra_validations": {
+            "89": "False",
+            "154": "True",
+            "61": "False",
+            "149": "False"
+        },
+        "annotation": {
+            "open_ended": "What is similar about these two crafts?",
+            "open_ended_answer": "They both depict flags, a rainbow flag and a Canadian flag"
+        }
+    },
+    {
+        "validation": {
+            "34": "False"
+        },
+        "sentence": "In at least one image there are a total of six bodybuilders in a row with hands on their hips.",
+        "left_url": "http://i.dailymail.co.uk/i/pix/2015/03/14/26A2654E00000578-0-image-m-61_1426343590352.jpg",
+        "writer": "31",
+        "label": "False",
+        "right_url": "https://ae01.alicdn.com/kf/HTB1Wn8SLpXXXXb4aXXXq6xXFXXX4/FLORIDA-PANTHERS-hockey-cheerleader-bikini-sexy-babe-doek-zijde-art-wall-poster-canvas-schilderij-en-afdrukken.jpg",
+        "synset": "bikini",
+        "query": "group of bikinis32",
+        "identifier": "dev-15-2-1",
+        "extra_validations": {
+            "128": "True",
+            "56": "False",
+            "154": "False",
+            "138": "False"
+        },
+        "annotation": {
+            "open_ended": "What is the difference between why these groups of women are wearing bikinis?",
+            "open_ended_answer": "One group is in a phsique competition and the other group is posing for a photo on the beach"
         }
     }
 ]
