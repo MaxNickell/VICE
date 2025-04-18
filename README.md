@@ -22,4 +22,5 @@ Annotation fields:
 - open_ended_answer: The expected answer to the open ended quesiton
 
 ## Scripts
-Download Images - `python util/download_images.py data/dev.json --hash_file data/dev_hashes.json` 
+Download Images - `python3 util/download_images.py data/dev.json --hash_file data/dev_hashes.json` 
+Stitch Images - `python3 util/batch_stitch.py out/images`

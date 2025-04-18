@@ -3,37 +3,30 @@ import json
 import os
 import progressbar
 import signal
-import socket
-import sys
 import requests
 import argparse
 
 from PIL import Image
 
-# Set up argument parser
 parser = argparse.ArgumentParser(description='Download images from a JSON file.')
 parser.add_argument('json_file', help='Path to the JSON file with image URLs')
 parser.add_argument('--hash_file', default=None, help='Path to the hash file for validation')
 parser.add_argument('--out_dir', default='out', help='Directory to save output files')
 args = parser.parse_args()
 
-# Set up directories
 base_out_dir = args.out_dir
 images_dir = os.path.join(base_out_dir, 'images')
 logs_dir = os.path.join(base_out_dir, 'logs')
 
-# Create output directories
 os.makedirs(images_dir, exist_ok=True)
 os.makedirs(logs_dir, exist_ok=True)
 
-# Get filenames
 json_file = args.json_file
 split_name = os.path.splitext(os.path.basename(json_file))[0]
 
 HEADER = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
-TIMEOUT = 2  # Timeout of 2 seconds
+TIMEOUT = 2 
 
-# Load JSON as a single array
 with open(json_file, 'r') as f:
     examples = json.load(f)
 
@@ -50,7 +43,7 @@ class Timeout():
         signal.alarm(self.sec)
 
     def __exit__(self, *args):
-        signal.alarm(0)    # disable alarm
+        signal.alarm(0)
 
     def raise_timeout(self, *args):
         raise Timeout.Timeout()
@@ -63,16 +56,13 @@ def save_image(filename, url, img_hash, wrong_hash_file):
                 try:
                     request = requests.get(url, headers=HEADER, stream=True)
 
-                    # Save the image to the specified directory
                     with open(save_path, 'wb') as f:
                         for chunk in request.iter_content(1024):
                             f.write(chunk)
 
-                    # And make sure the hash is correct if provided
                     try:
                         saved_hash = str(imagehash.average_hash(Image.open(save_path)))
 
-                        # Only validate hash if one was provided
                         if img_hash and not saved_hash == img_hash:
                             wrong_hash_file.write(f"{url}\t{filename}\t{saved_hash}\t{img_hash}\n")
                     except OSError as e:
@@ -88,9 +78,8 @@ def save_image(filename, url, img_hash, wrong_hash_file):
                 return request.status_code
         except Timeout.Timeout as e:
             return e
-    return 200  # Return 200 if file already exists
+    return 200
 
-# Try to load hash file
 hashes = {}
 if args.hash_file:
     try:
@@ -100,17 +89,14 @@ if args.hash_file:
     except FileNotFoundError:
         print(f"Hash file {args.hash_file} not found. Continuing without hash validation.")
 
-# Set up log files
 failed_imgs_path = os.path.join(logs_dir, f"{split_name}_failed_imgs.txt")
 checked_imgs_path = os.path.join(logs_dir, f"{split_name}_checked_imgs.txt")
 failed_hashes_path = os.path.join(logs_dir, f"{split_name}_failed_hashes.txt")
 
-# Initialize progress bar
 pbar = progressbar.ProgressBar(maxval=len(examples))
 pbar.start()
 
 with open(failed_imgs_path, "a") as ofile, open(checked_imgs_path, "a") as checked_file, open(failed_hashes_path, "a") as failed_hash_file:
-    # Create empty set if file doesn't exist or read existing file
     try:
         checked_urls = set([line.strip() for line in open(checked_imgs_path).readlines()])
     except FileNotFoundError:
@@ -130,7 +116,6 @@ with open(failed_imgs_path, "a") as ofile, open(checked_imgs_path, "a") as check
         right_url = example["right_url"]
 
         if not left_url in checked_urls:
-            # Use .get() to safely access hash dictionary with a default empty string
             status_code = save_image(left_image_name, left_url, hashes.get(left_image_name, ""), failed_hash_file)
             if status_code != 200:
                 ofile.write(f"{status_code}\t{left_image_name}\t{left_url}\n")
@@ -140,7 +125,6 @@ with open(failed_imgs_path, "a") as ofile, open(checked_imgs_path, "a") as check
             checked_file.write(f"{left_url}\n")
             num_total += 1
         if not right_url in checked_urls:
-            # Use .get() to safely access hash dictionary with a default empty string
             status_code = save_image(right_image_name, right_url, hashes.get(right_image_name, ""), failed_hash_file)
             if status_code != 200:
                 ofile.write(f"{status_code}\t{right_image_name}\t{right_url}\n")
