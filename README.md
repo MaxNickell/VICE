@@ -1,10 +1,10 @@
 # VICE
 ## Visual Implicit Comparative Evaluation
 
-VICE is a dataset derived from the Natural Language for Visual Reasoning v2 (NLVRv2) dataset. We extract image pairs directly from NLVRv2 and enhance them with our own custom annotations, including questions and answers specifically designed for implicit comparative visual reasoning tasks.
+VICE is a dataset derived from the Natural Language for Visual Reasoning v2 (NLVR2) dataset. We extract image pairs directly from NLVR2 and enhance them with our own custom annotations, including questions and answers specifically designed for implicit comparative visual reasoning tasks.
 
 ## JSON dataset files
-Fields from the oringal NLVRv2 dataset
+Fields from the oringal NLVR2 dataset
 - sentence: The natural language sentence describing the pair of images for this example.
 - left_url: The URL of the left image in the pair.
 - right_url: The URL of the right image in the pair.
